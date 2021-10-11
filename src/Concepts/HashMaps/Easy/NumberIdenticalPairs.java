@@ -15,7 +15,6 @@ public class NumberIdenticalPairs {
     public static void main(String[] args) {
         System.out.println(numIdenticalPairs1());
         System.out.println(numIdenticalPairs2());
-//        System.out.println(numIdenticalPairs());
     }
 
     public static int numIdenticalPairs1() {
