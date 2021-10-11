@@ -1,4 +1,4 @@
-package HashMaps.Easy;
+package Concepts.HashMaps.Easy;
 
 /**
  * Given an array of integers nums, return the number of good pairs.

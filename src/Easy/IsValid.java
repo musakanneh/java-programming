@@ -20,8 +20,6 @@ public class IsValid {
     }
 
     public static boolean isValid(String s) {
-        /**
-         *
-         */
+      return false;
     }
 }
