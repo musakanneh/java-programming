@@ -15,7 +15,7 @@ public class IsAnagram {
     }
 
     public static boolean isAnagram1(String s, String t) {
-        /***
+        /**
          * convert both strings in character arrays, then sort the array
          * convert back to string and compare the results
          */
@@ -32,11 +32,6 @@ public class IsAnagram {
 
     public static boolean isAnagram2(String s, String t) {
         /**
-         * @params:
-         *  s: first input string
-         *  t: second input string
-         *
-         * @soln:
          *  create an array of the all alphabets
          *  loop through the input strings and track their characters:
          *      first input string increments, while the second input string decrements
