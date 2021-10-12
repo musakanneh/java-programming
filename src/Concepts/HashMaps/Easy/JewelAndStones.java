@@ -12,7 +12,7 @@ import java.util.HashMap;
  */
 public class JewelAndStones {
     public static void main(String[] args) {
-//        System.out.println(numJewelsInStones1("z", "ZZ"));
+        System.out.println(numJewelsInStones1("z", "ZZ"));
         System.out.println(numJewelsInStones("aA", "aAAbbbb"));
     }
 
