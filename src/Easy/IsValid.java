@@ -1,7 +1,10 @@
 package Easy;
 
+import java.util.Arrays;
+
 /**
- * Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
+ * Given a string s containing just the characters
+ * '(', ')', '{', '}', '[' and ']',
  * determine if the input string is valid.
  *
  * An input string is valid if:
@@ -13,13 +16,15 @@ package Easy;
  * Input: s = "()[]{}"
  * Output: true
  */
-
 public class IsValid {
     public static void main(String[] args) {
         System.out.println(isValid("()[]{}"));
     }
 
     public static boolean isValid(String s) {
-      return false;
+        String [] opening_brackets = {"(", "[", "{"};
+        String [] closing_brackets = {")", "]", "}"};
+
+        return false;
     }
 }

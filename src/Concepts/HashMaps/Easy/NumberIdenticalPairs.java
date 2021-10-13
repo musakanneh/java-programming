@@ -32,9 +32,8 @@ public class NumberIdenticalPairs {
         int good_pairs = 0;
         int [] freq = new int[MAX_LEN];
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++)
             freq[nums[i]]++;
-        }
         for (int i = 0; i < MAX_LEN; i++) {
             if (freq[i] > 1) {
                 good_pairs += ((freq[i] - 1) * (freq[i])) / 2;
