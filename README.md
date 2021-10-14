@@ -8,4 +8,4 @@
 2. [Jewels and Stones](https://github.com/musakanneh/dsa-java/blob/main/src/Concepts/HashMaps/Easy/JewelAndStones.java)
 3. [How Many Numbers Are Smaller Than the Current Number](https://github.com/musakanneh/dsa-java/blob/main/src/Concepts/HashMaps/Easy/SmallerNumbersThanCurrent.java)
 4. [Count of Smaller Numbers After Self](https://github.com/musakanneh/dsa-java/blob/main/src/Concepts/HashMaps/Hard/countSmaller.java)
-5.
+5. [Final Value of Variable After Performing Operations]()

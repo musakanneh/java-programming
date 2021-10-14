@@ -20,14 +20,12 @@ public class SmallerNumbersThanCurrent {
 
         for (int i = 0; i < numbers.length; i++) {
             int count = 0;
-
             for (int j = 0; j < numbers.length; j++) {
                 if (numbers[i] > numbers[j]) {
                     count++;
                 }
             }
             num_ordering[i] = count;
-            System.out.println(num_ordering[i]);
         }
         return num_ordering;
     }
