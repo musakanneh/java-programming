@@ -21,7 +21,7 @@ public class CheckIfPangram {
             return false;
         }
         ArrayList<Character> alphabets = new ArrayList<>();
-        
+
         for (int i = 0; i < sentence.length(); i++) {
             if (!alphabets.contains(sentence.charAt(i))) {
                 alphabets.add(sentence.charAt(i));

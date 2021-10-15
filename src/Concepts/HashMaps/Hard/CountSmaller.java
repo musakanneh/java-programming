@@ -16,24 +16,10 @@ import java.util.List;
 public class CountSmaller {
 
     public static void main(String[] args) {
-        System.out.println(countSmaller());
+//        System.out.println(countSmaller());
     }
 
-    public static List<Integer> countSmaller() {
-        int[] numbers = {5, 2, 6, 1};
-        List<Integer> answer_list = new ArrayList<>();
-
-        for (int i = 0; i < numbers.length; i++) {
-            int count = 0;
-            int first_item = numbers[i];
-            for (int j = 0; j < numbers.length; j++) {
-                if (first_item > numbers[j]) {
-                    count++;
-                    numbers[i] = numbers[i + 1];
-                }
-            }
-            answer_list.add(count);
-        }
-        return answer_list;
-    }
+//    public static List<Integer> countSmaller() {
+//        int[] numbers = {5, 2, 6, 1};
+//    }
 }
