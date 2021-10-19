@@ -1,5 +1,4 @@
-package Concepts.String;
-import java.util.HashMap;
+package Easy.String;
 
 /***
  * Given a string s and an integer array indices of the same length.

@@ -1,4 +1,4 @@
-package Concepts.String;
+package Easy.String;
 
 /***
  * Given a valid (IPv4) IP address, return a defanged version of that IP address.

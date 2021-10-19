@@ -1,4 +1,4 @@
-package Concepts.HashMaps.Easy;
+package Easy.HashMaps;
 
 import java.util.HashMap;
 

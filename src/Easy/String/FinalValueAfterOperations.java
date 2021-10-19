@@ -1,4 +1,4 @@
-package Concepts.String;
+package Easy.String;
 
 /**
  * There is a programming language with only four operations and one variable X:

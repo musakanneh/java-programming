@@ -1,4 +1,4 @@
-package Concepts.String;
+package Easy.String;
 
 import java.util.ArrayList;
 

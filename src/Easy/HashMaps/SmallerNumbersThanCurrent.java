@@ -1,4 +1,4 @@
-package Concepts.HashMaps.Easy;
+package Easy.HashMaps;
 
 /**
  * Given the array nums, for each nums[i] find out how many
