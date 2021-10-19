@@ -30,13 +30,11 @@ public class BuddyStrings {
             }
             return (unique_chars.size() < s.length());
         }
-
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) != goal.charAt(i)) {
                 diff.add(i);
             }
         }
-
         return  (diff.size() == 2 &&
                 s.charAt(diff.get(0)) == goal.charAt(diff.get(1)) &&
                 goal.charAt(diff.get(0)) == s.charAt(diff.get(1)));

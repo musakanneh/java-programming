@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String;
 
 import java.util.Arrays;
 
@@ -7,7 +7,6 @@ import java.util.Arrays;
  *
  * https://leetcode.com/problems/valid-anagram/
  */
-
 public class IsAnagram {
     public static void main(String[] args) {
         System.out.println(isAnagram2("rat", "tar"));
