@@ -11,9 +11,6 @@ package Easy.String;
 public class ClimbStairs {
     public static void main(String[] args) {
         System.out.println(climbStairs(2));
-        System.out.println(climbStairs(3));
-        System.out.println(climbStairs(4));
-        System.out.println(climbStairs(5));
     }
 
     public static int climbStairs(int n) {
@@ -25,6 +22,7 @@ public class ClimbStairs {
         for (int i = 3; i <= n; i++) {
             step_count[i] = step_count[i - 1] + step_count[i - 2];
         }
+
         return step_count[n];
     }
 }

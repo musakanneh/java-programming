@@ -1,4 +1,4 @@
-package Easy.HashMaps;
+package Easy.String;
 import java.util.*;
 
 /**
@@ -23,14 +23,13 @@ public class NumberIdenticalPairs {
                 }
             }
         }
+
         return good_pair;
     }
 
     public static int numIdenticalPairs2() {
-        int MAX_LEN = 101;
-        int [] nums = {1,2,3,1,1,3};
-        int good_pairs = 0;
-        int [] freq = new int[MAX_LEN];
+        int MAX_LEN = 101; int [] nums = {1,2,3,1,1,3};
+        int good_pairs = 0; int [] freq = new int[MAX_LEN];
 
         for (int i = 0; i < nums.length; i++)
             freq[nums[i]]++;
@@ -39,13 +38,12 @@ public class NumberIdenticalPairs {
                 good_pairs += ((freq[i] - 1) * (freq[i])) / 2;
             }
         }
+
         return good_pairs;
     }
 
     public static int numIdenticalPairs() {
-        int [] nums = {1, 1, 1, 1};
-        int freq_count = 0;
-
+        int [] nums = {1, 1, 1, 1}; int freq_count = 0;
         HashMap<Integer, Integer> good_pairs = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
@@ -58,6 +56,7 @@ public class NumberIdenticalPairs {
                 good_pairs.put(element_at_index, 1);
             }
         }
+
         return freq_count;
     }
 }

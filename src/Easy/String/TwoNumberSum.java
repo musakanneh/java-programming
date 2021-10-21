@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String;
 
 import java.util.HashMap;
 
@@ -28,6 +28,7 @@ public class TwoNumberSum {
             }
             result.put(numbers[i], i);
         }
+
         return new int []{};
     }
 }

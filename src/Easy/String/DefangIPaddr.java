@@ -20,6 +20,7 @@ public class DefangIPaddr {
                 build_string.append(item);
             }
         }
+
         return build_string.toString();
     }
 }

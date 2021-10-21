@@ -1,4 +1,4 @@
-package Easy.HashMaps;
+package Easy.String;
 
 /**
  * Given the array nums, for each nums[i] find out how many
@@ -27,11 +27,7 @@ public class SmallerNumbersThanCurrent {
             }
             num_ordering[i] = count;
         }
+
         return num_ordering;
     }
-
-//    public static int[] smallerNumbersThanCurrent() {
-//        // TODO: Solve using hashmap
-//        return null;
-//    }
 }

@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String;
 
 /**
  * Given a string s, determine if it is a palindrome,
@@ -21,8 +21,7 @@ public class IsPalindrome {
             }
         }
         valid_string_set = valid_string_set.toLowerCase();
-        int left = 0;
-        int right = valid_string_set.length() - 1;
+        int left = 0; int right = valid_string_set.length() - 1;
 
         while (left <= right) {
             if (valid_string_set.charAt(left) != valid_string_set.charAt(right)) {
@@ -30,6 +29,7 @@ public class IsPalindrome {
             }
             left++; right--;
         }
+
         return true;
     }
 }

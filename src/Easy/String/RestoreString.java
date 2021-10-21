@@ -24,6 +24,7 @@ public class RestoreString {
         for (int i = 0; i < string.length(); i++) {
             shuffled_string.setCharAt(indices[i], string.charAt(i));
         }
+
         return shuffled_string.toString();
     }
 }

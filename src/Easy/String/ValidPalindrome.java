@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String;
 
 /**
  * Given a string s, return true if the s can be palindrome
@@ -13,8 +13,7 @@ public class ValidPalindrome {
     }
 
     public static boolean validPalindrome(String s) {
-        int left = 0;
-        int right = s.length() - 1;
+        int left = 0; int right = s.length() - 1;
 
         while (left <= right) {
              if (s.charAt(left) != s.charAt(right)) {
@@ -23,6 +22,7 @@ public class ValidPalindrome {
              }
             left++; right--;
         }
+
         return true;
     }
 
@@ -32,6 +32,7 @@ public class ValidPalindrome {
                 return false;
             }
         }
+
         return true;
     }
 }
