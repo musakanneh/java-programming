@@ -13,15 +13,15 @@ public class ValidPalindrome {
     }
 
     public static boolean validPalindrome(String s) {
-        int left_pointer = 0;
-        int right_pointer = s.length() - 1;
+        int left = 0;
+        int right = s.length() - 1;
 
-        while (left_pointer <= right_pointer) {
-             if (s.charAt(left_pointer) != s.charAt(right_pointer)) {
-                return isPalindrome(s, left_pointer + 1, right_pointer) ||
-                        isPalindrome(s, left_pointer, right_pointer - 1);
+        while (left <= right) {
+             if (s.charAt(left) != s.charAt(right)) {
+                return isPalindrome(s, left + 1, right) ||
+                        isPalindrome(s, left, right - 1);
              }
-            left_pointer++; right_pointer--;
+            left++; right--;
         }
         return true;
     }
