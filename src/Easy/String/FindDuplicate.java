@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String;
 
 import java.util.HashSet;
 

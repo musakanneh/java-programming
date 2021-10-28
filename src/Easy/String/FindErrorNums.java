@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String;
 
 /***
  * You have a set of integers s, which originally contains all the numbers from 1 to n.
