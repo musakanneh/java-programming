@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String;
 
 /***
  * Best Time to Buy and Sell Stock
