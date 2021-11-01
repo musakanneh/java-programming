@@ -1,4 +1,4 @@
-package Easy;
+package Easy.Tree;
 
 /***
  * Given the roots of two binary trees p and q,

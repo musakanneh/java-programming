@@ -1,4 +1,4 @@
-package Easy;
+package Easy.Tree;
 
 /***
  * Given a binary search tree, write a function

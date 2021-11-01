@@ -11,9 +11,20 @@ package Easy;
  *
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
  */
-
 public class MaxProfit {
     public static void main(String[] args) {
-        System.out.println("Max profit");
+        System.out.println(maxProfit());
+    }
+
+    static int maxProfit() {
+        int[] prices = {7, 1, 5, 3, 6, 4};
+        int min_price = prices[0]; int max_profit = 0;
+
+        for (int price : prices) {
+            min_price = Math.min(min_price, price);
+            int current_profit = price - min_price;
+            max_profit = Math.max(max_profit, current_profit);
+        }
+        return max_profit;
     }
 }

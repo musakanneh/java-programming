@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String;
 
 /**
  * Given an integer array nums, find the contiguous subarray

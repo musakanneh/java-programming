@@ -1,4 +1,4 @@
-package Easy;
+package Easy.Tree;
 
 /**
  * https://leetcode.com/problems/linked-list-cycle/

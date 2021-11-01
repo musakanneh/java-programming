@@ -1,4 +1,4 @@
-package Easy;
+package Easy.Tree;
 
 /**
  * https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
