@@ -7,10 +7,10 @@ public class companyBotStrategy {
         System.out.println();
     }
 
-    static double companyBotStrategy() {
-        int[][] trainingData;
-
-        return trainingData;
-    }
+//    static double companyBotStrategy() {
+//        int[][] trainingData = new int [3, 1], [5, 1];
+//
+//        return null;
+//    }
 
 }
