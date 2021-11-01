@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String;
 
 /**
  * Given an array nums containing n distinct numbers in the range [0, n],
