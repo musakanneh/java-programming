@@ -1,4 +1,4 @@
-## Company Bot Strategy
+## [Company Bot Strategy](https://app.codesignal.com/challenge/6jzS7zy9SkDyufdBx)
 
 Each CodeSignal Company Bot is trained by engineers from that specific company. The way it works is that a representative group of engineers from each company is identified as trainers before the bot goes live, and they CodeFight against the bot during a training phase. The current training algorithm is definitely more complex, but let's assume it works this way:
 

@@ -1,5 +1,6 @@
 package CodeSignalChallanges.CompanyBotStrategy;
 
+
 public class companyBotStrategy {
 
 
