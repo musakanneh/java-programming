@@ -1,5 +1,4 @@
 package Easy.TwoPointers;
-
 /***
  * Given a fixed-length integer array arr, duplicate each occurrence of zero,
  * shifting the remaining elements to the right.
@@ -15,10 +14,21 @@ package Easy.TwoPointers;
  */
 public class DuplicateZeros {
     public static void main(String[] args) {
-        System.out.println(duplicateZeros());
     }
 
-    static int duplicateZeros() {
+    static void duplicateZerosSolutionOne() {
+        int[] arr = {1, 0, 2, 3, 0, 4, 5, 0};
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 0) {
+                for (int j = arr.length - 1; j > i; j--) {
+                    arr[j] = arr[i - 1];
+                }
+                i++;
+            }
+        }
+    }
+
+    static void duplicateZeros() {
         int[] arr = {1, 0, 2, 3, 0, 4, 5, 0};
 
         int possible_duplicates = 0;
@@ -34,7 +44,16 @@ public class DuplicateZeros {
                 possible_duplicates++;
             }
         }
+
         int last = arr_len - possible_duplicates;
-        for ()
+        for (int i = last; i >= 0; i--) {
+            if (arr[i] == 0) {
+                arr[i + possible_duplicates] = 0;
+                possible_duplicates--;
+                arr[i + possible_duplicates] = 0;
+            } else {
+                arr[i + possible_duplicates] = arr[i];
+            }
+        }
     }
 }
