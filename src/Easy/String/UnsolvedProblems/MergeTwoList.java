@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String.UnsolvedProblems;
 
 /***
  * Merge two sorted linked lists and return it as a sorted list.

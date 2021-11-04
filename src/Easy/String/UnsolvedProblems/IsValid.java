@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String.UnsolvedProblems;
 
 import java.util.Arrays;
 

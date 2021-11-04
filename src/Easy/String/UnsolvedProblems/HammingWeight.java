@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String.UnsolvedProblems;
 
 /***
  * https://leetcode.com/problems/number-of-1-bits/

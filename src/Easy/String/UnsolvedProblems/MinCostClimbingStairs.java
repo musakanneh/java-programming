@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String.UnsolvedProblems;
 
 /***
  * Given a string s that consists of only uppercase English letters,

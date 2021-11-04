@@ -1,4 +1,4 @@
-package Easy;
+package Easy.String.UnsolvedProblems;
 
 /**
  * https://leetcode.com/problems/reverse-bits/
