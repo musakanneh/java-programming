@@ -12,9 +12,21 @@ package Easy.TwoPointers;
  *
  * https://leetcode.com/problems/check-if-n-and-its-double-exist/
  */
-
 public class CheckIfExist {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(checkIfExist());
+    }
+
+    public static boolean checkIfExist() {
+        int[] arr = {-2,0,10,-19,4,6,-8};
+
+        for (int i = 0;  i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[i] == arr[j] * 2 && i != j){
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

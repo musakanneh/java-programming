@@ -1,4 +1,4 @@
-package Easy.TwoPointers;
+package Easy.TwoPointers.Solved;
 
 /***
  * Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
