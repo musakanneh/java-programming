@@ -1,4 +1,4 @@
-package Easy.TwoPointers;
+package Easy.TwoPointers.Solved;
 
 /***
  * Given an array arr of integers, check if there exists two integers
