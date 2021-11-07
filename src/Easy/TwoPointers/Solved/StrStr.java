@@ -1,4 +1,4 @@
-package Easy.TwoPointers;
+package Easy.TwoPointers.Solved;
 
 /**
  * Return the index of the first occurrence of needle in haystack,
