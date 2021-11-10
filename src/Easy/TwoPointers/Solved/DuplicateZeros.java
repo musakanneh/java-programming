@@ -1,4 +1,4 @@
-package Easy.TwoPointers;
+package Easy.TwoPointers.Solved;
 /***
  * Given a fixed-length integer array arr, duplicate each occurrence of zero,
  * shifting the remaining elements to the right.
@@ -14,6 +14,7 @@ package Easy.TwoPointers;
  */
 public class DuplicateZeros {
     public static void main(String[] args) {
+        System.out.println();
     }
 
     static void duplicateZerosSolutionOne() {
