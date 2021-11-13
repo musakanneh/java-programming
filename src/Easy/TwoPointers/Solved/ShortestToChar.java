@@ -1,4 +1,4 @@
-package Easy.TwoPointers;
+package Easy.TwoPointers.Solved;
 
 import java.util.Arrays;
 
@@ -26,7 +26,7 @@ public class ShortestToChar {
             if (s.charAt(i) == c) c_position = i;
             result[i] = i - c_position;
         }
-        
+
         for (int i = s_len - 1; i >= 0; i--) {
             if (s.charAt(i) == c) c_position = i;
             result[i] = Math.min(result[i], Math.abs(i - c_position));

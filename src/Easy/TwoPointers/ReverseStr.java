@@ -10,9 +10,23 @@ package Easy.TwoPointers;
  *
  * https://leetcode.com/problems/reverse-string-ii/
  */
-
 public class ReverseStr {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(reverseStr("abcdefg", 4));
+    }
+
+    static String reverseStr(String s, int k) {
+        char [] ch = s.toCharArray();
+
+        for (int i = 0; i < s.length(); i += 2 * k) {
+            int left = i, right = Math.min(i + k - 1, ch.length - 1);
+
+            while (left < right) {
+                char temp = ch[left];
+                ch[left++] = ch[right];
+                ch[right--] = temp;
+            }
+        }
+        return String.copyValueOf(ch);
     }
 }
