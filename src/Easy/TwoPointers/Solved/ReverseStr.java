@@ -1,4 +1,4 @@
-package Easy.TwoPointers;
+package Easy.TwoPointers.Solved;
 
 /***
  * Given a string s and an integer k, reverse the first k characters
