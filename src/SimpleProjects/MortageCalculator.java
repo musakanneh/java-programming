@@ -31,8 +31,7 @@ class MortgageCalculator {
         while (true ) {
             System.out.print("Principal ($1k - $1M): ");
             principal = scanner.nextInt();
-            if (principal >= 100 && principal <= 1_000_000)
-                break;
+            if (principal >= 100 && principal <= 1_000_000) break;
             System.out.println("Enter a number between 1,000 and 1,000,000.");
         }
     }
@@ -45,6 +44,7 @@ class MortgageCalculator {
                 monthlyInterest = annualInterest / PERCENT / MONTHS_IN_YEAR;
                 break;
             }
+
             System.out.println("Enter a value between 1 and 30");
         }
     }
@@ -57,6 +57,7 @@ class MortgageCalculator {
                 numberOfPayment = years * MONTHS_IN_YEAR;
                 break;
             }
+
             System.out.println("Enter a value between 1 and 30");
         }
     }
