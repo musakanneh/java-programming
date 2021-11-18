@@ -1,4 +1,6 @@
-package DataStructures.HashMap;
+package DataStructures.HashMap.Easy;
+
+import java.util.HashSet;
 
 /***
  * International Morse Code defines a standard encoding where each letter
@@ -22,6 +24,25 @@ package DataStructures.HashMap;
  */
 public class UniqueMorseRepresentations {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(uniqueMorseRepresentations());
+    }
+
+    static int uniqueMorseRepresentations() {
+        String[] words = {"gin", "zen", "gig", "msg"};
+        String[] morse = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.",
+                "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.",
+                "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."};
+        HashSet<String> hash_set = new HashSet<>();
+
+        for (String word : words) {
+            StringBuilder transformation = new StringBuilder();
+
+            for (char ch : word.toCharArray()) {
+                transformation.append(morse[ch - 'a']);
+            }
+            hash_set.add(transformation.toString());
+        }
+
+        return hash_set.size();
     }
 }

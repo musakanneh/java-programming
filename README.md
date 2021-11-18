@@ -1,1 +1,1 @@
-# Data Structures and Algorithms + Java Programming
+## Data Structures, Algorithms, and Java Programming.
