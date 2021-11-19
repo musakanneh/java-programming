@@ -1,5 +1,8 @@
 package DataStructures.HashMap;
 
+import java.util.Arrays;
+import java.util.HashMap;
+
 /***
  * Given two integer arrays of equal length target and arr.
  *
@@ -12,6 +15,23 @@ package DataStructures.HashMap;
  */
 public class CanBeEqual {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(canBeEqual());
+    }
+
+    static boolean canBeEqual() {
+        int[] target = {3, 7, 9}; int[] arr = {3, 7, 11};
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int t : target) {
+            int count = map.getOrDefault(t, 0);
+            map.put(t, count + 1);
+        }
+        for (int a : arr) {
+            if (map.containsKey(a) && map.get(a) > 0) {
+                map.put(a, map.get(a) - 1);
+            } else return false;
+        }
+
+        return true;
     }
 }
