@@ -18,8 +18,7 @@ public class CountCharacters {
 
     static int countCharacters(String chars) {
         String[] words = {"cat", "bt", "hat", "tree"};
-        HashMap<Character, Integer> map =  new HashMap<>();
-        int result = 0;
+        HashMap<Character, Integer> map =  new HashMap<>(); int result = 0;
 
         for (char ch : chars.toCharArray()) {
             map.put(ch, map.getOrDefault(ch, 0) + 1);

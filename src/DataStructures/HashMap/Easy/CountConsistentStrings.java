@@ -1,4 +1,6 @@
-package DataStructures.HashMap;
+package DataStructures.HashMap.Easy;
+
+import java.util.HashSet;
 
 /***
  * You are given a string allowed consisting of distinct characters
@@ -16,7 +18,20 @@ public class CountConsistentStrings {
 
     static int countConsistentStrings(String allowed) {
         String[] words = {"ad", "bd", "aaab", "baa", "badab"};
+        HashSet<Character> set = new HashSet<>(); int count = 0;
 
-        return words.length;
+        for (char ch : allowed.toCharArray()) set.add(ch);
+
+        for (String word : words) {
+            boolean found = true;
+
+            for (char ch : word.toCharArray()) {
+                if (!set.contains(ch)) {
+                    found = false; break;
+                }
+            }
+            if (found) count++;
+        }
+        return count;
     }
 }
