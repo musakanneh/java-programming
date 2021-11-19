@@ -22,8 +22,7 @@ public class CountCharacters {
         int result = 0;
 
         for (char ch : chars.toCharArray()) {
-            int count = map.getOrDefault(ch, 0);
-            map.put(ch, count + 1);
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
         for (String word : words) {
             boolean isTestPassed = false; int [] count = new int[26];

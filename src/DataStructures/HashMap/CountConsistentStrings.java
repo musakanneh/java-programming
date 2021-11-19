@@ -11,8 +11,12 @@ package DataStructures.HashMap;
  */
 public class CountConsistentStrings {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(countConsistentStrings("ab"));
     }
 
+    static int countConsistentStrings(String allowed) {
+        String[] words = {"ad", "bd", "aaab", "baa", "badab"};
 
+        return words.length;
+    }
 }

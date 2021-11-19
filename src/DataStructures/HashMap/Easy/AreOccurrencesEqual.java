@@ -16,14 +16,14 @@ public class AreOccurrencesEqual {
     }
 
     static boolean areOccurrencesEqual(String s) {
-        HashMap<Character, Integer> str_feq = new HashMap<>();
+        HashMap<Character, Integer> map = new HashMap<>();
 
         for (char ch : s.toCharArray()) {
-            str_feq.put(ch, str_feq.getOrDefault(ch, 0) + 1);
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
-        int count = str_feq.get(s.charAt(0));
+        int count = map.get(s.charAt(0));
 
-        for (Integer value : str_feq.values()) {
+        for (Integer value : map.values()) {
             if (value != count) return false;
         }
 

@@ -22,8 +22,7 @@ public class CanBeEqual {
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int t : target) {
-            int count = map.getOrDefault(t, 0);
-            map.put(t, count + 1);
+            map.put(t, map.getOrDefault(t, 0) + 1);
         }
         for (int a : arr) {
             if (map.containsKey(a) && map.get(a) > 0) {
