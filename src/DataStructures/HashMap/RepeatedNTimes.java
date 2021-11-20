@@ -1,5 +1,7 @@
 package DataStructures.HashMap;
 
+import java.util.HashMap;
+
 /***
  * You are given an integer array nums with the following properties:
  *
@@ -12,6 +14,22 @@ package DataStructures.HashMap;
  */
 public class RepeatedNTimes {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(repeatedNTimes());
+    }
+
+    static int repeatedNTimes() {
+        int[] nums = {1, 2, 3, 3};
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            int repeated_num = nums[i];
+            if (map.containsValue(repeated_num)) {
+                return repeated_num;
+            } else {
+                map.put(i, repeated_num);
+            }
+        }
+        return 0;
     }
 }

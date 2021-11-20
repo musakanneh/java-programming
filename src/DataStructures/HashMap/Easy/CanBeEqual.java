@@ -18,6 +18,7 @@ public class CanBeEqual {
 
     static boolean canBeEqual() {
         int[] target = {3, 7, 9}; int[] arr = {3, 7, 11};
+
         HashMap<Integer, Integer> map = new HashMap<>();
 
         for (int t : target) {

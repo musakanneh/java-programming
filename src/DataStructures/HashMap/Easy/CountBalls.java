@@ -35,7 +35,6 @@ public class CountBalls {
             sum_count.put(sum, sum_count.getOrDefault(sum, 0) + 1);
             count = sum_count.get(sum) > count ? sum_count.get(sum) : count;
         }
-
         return count;
     }
 
@@ -59,7 +58,6 @@ public class CountBalls {
             sum += number % 10;
             number /= 10;
         }
-
         return sum;
     }
 }
