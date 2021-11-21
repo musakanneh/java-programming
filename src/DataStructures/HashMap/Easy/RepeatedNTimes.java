@@ -1,4 +1,4 @@
-package DataStructures.HashMap;
+package DataStructures.HashMap.Easy;
 
 import java.util.HashMap;
 
