@@ -1,4 +1,4 @@
-package DataStructures.HashMap;
+package DataStructures.HashMap.Easy;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -19,9 +19,9 @@ public class CommonChars {
         String[] words = {"bella", "label", "roller"};
         HashMap<Character,Integer> res = new HashMap();
         for(char i : words[0].toCharArray() ){
-            res.put(i,res.getOrDefault(i,0)+1);
-        }
+            res.put(i,res.getOrDefault(i,0) + 1);
 
+        }
         for(int i = 1; i < words.length; i++){
             char[] temp = words[i].toCharArray();
             HashMap<Character,Integer> map = new HashMap();
