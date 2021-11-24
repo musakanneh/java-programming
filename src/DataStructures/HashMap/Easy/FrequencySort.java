@@ -1,6 +1,4 @@
-package DataStructures.HashMap;
-
-import java.util.Arrays;
+package DataStructures.HashMap.Easy;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,7 +28,7 @@ public class FrequencySort {
 
             for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
                 current_value = entry.getValue();
-                
+
                 if (current_value < min_value) {
                     k = entry.getKey(); min_value = current_value;
 
