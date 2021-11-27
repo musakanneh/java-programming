@@ -1,0 +1,16 @@
+### TODOS:
+- Understand Data Structures - a various ways to organize data
+  - Linked Lists
+  - Stacks
+  - Queues
+  - Arrays
+  - Hash Maps
+- Understand BigO Analysis
+- Understand Algorithms
+  - Sorting Algorithms
+    - Quick Sort
+    - Merge Sort
+    - Reading Sort
+    - Bucket Sort
+- Problem Solving
+- 
