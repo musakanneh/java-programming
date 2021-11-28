@@ -1,10 +1,10 @@
 ### TODOS:
-- Understand Data Structures - a various ways to organize data
-  - Linked Lists
-  - Stacks
-  - Queues
-  - Arrays
-  - Hash Maps
+- Understand how the following Data Structures work:
+  - [x] Hash Maps
+  - [ ] Linked Lists
+  - [ ] Stacks
+  - [ ] Queues
+  - [ ] Arrays
 - Understand BigO Analysis
 - Understand Algorithms
   - Sorting Algorithms

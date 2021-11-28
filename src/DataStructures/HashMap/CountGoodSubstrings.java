@@ -13,10 +13,10 @@ package DataStructures.HashMap;
  */
 public class CountGoodSubstrings {
     public static void main(String[] args) {
-        System.out.println(countGoodSubstrings("xyzzaz"));
+//        System.out.println(countGoodSubstrings("xyzzaz"));
     }
-
-    static int countGoodSubstrings(String s) {
-
-    }
+//
+//    static int countGoodSubstrings(String s) {
+//
+//    }
 }
