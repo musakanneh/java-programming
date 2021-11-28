@@ -1,4 +1,4 @@
-package DataStructures.HashMap;
+package DataStructures.HashMap.Easy;
 
 /***
  * There is a malfunctioning keyboard where some letter keys do not work.
